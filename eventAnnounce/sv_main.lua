@@ -3,14 +3,13 @@ RegisterNetEvent("postNewAnnoucement")
 AddEventHandler("postNewAnnoucement", function(annoucement, useESX, noESXFunc)
     if useESX then
         TriggerEvent("esx:getSharedObject", function(obj) ESX = obj end)Wait(100)
+           local sourcePlayer = source
+           local xPlayer = ESX.GetPlayerFromId(sourcePlayer)
+           if xPlayer.getGroup() == "superadmin" or xPlayer.getGroup() == "_dev" then
+                TriggerClientEvent("cl_postNewAnnoucement", -1, annoucement)
+           end
     elseif noESXFunc and useESX == false then 
-        noESXFunc()
-    end
-        
-    local sourcePlayer = source
-    local xPlayer = ESX.GetPlayerFromId(sourcePlayer)
-    if xPlayer.getGroup() == "superadmin" or xPlayer.getGroup() == "_dev" then
-        TriggerClientEvent("cl_postNewAnnoucement", -1, annoucement)
+        noESXFunc() -- La function qui vous permet de voir si le joueur a le grade nécéssaire
     end
     
 end)
