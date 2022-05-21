@@ -1,5 +1,5 @@
-## Script d'annonce d'événement
-Voici un script que j'ai développer pour faire des annonce événement pour votre serveur.
+## Script d'annonces d'événement
+Voici un script que j'ai développer pour faire des annonces d'événement pour votre serveur.
 
 ## Installation
 
@@ -13,7 +13,7 @@ Dans ce script, j'ai adapté des moyens de configurations complet pour que ce sc
 
 La configuration est assez complèxe mais n'est pas compliqué à comprendre : 
 
-|Nom|Valeur accépter|Détail|      
+|Nom|Valeur accépter|Détails|      
 |----|-----|-------|      
 |SecuriseScript|Boolean (`true` ou `false`)|Cette option permet d'activer la sécurisation supplémentaire du script.| 
 |SecuriseWithBooleanValue|Boolean (`true` ou `false`)|Cette option permet d'activer la sécurisation par une valeur vrai ou fausse en fonction des conditions d'éxecution.| 
