@@ -1,3 +1,4 @@
+### Pour tout problème, merci de rejoindre le [Discord](https://discord.gg/dpPNg7gF4N "Discord d'aide")
 ## Script d'annonces d'événement
 Voici un script que j'ai développer pour faire des annonces d'événement pour votre serveur.
 
