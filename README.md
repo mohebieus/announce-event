@@ -4,6 +4,7 @@ Voici un script que j'ai développer pour faire des annonce événement pour vot
 ## Installation
 
 1 - Télécharger la ressource puis décompresser la dans votre répertoire `ressource` de votre serveur FiveM.
+
 2 - Allez dans votre `server.cfg`, puis ajoutez cette ligne : `ensure eventAnnounce`
 
 ## Configuration
